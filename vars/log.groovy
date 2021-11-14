@@ -1,3 +1,3 @@
 def call(){
-    println("hello rab ====")
+    sh "echo hello"
 }
