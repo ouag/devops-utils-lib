@@ -13,8 +13,8 @@ def getTimestamp() {
 }
 
 def info(def msg) {
-    Log2 log2 - new Log2()
-    log2.info(msg)
+    Log2 l = new Log2()
+    l.info(msg)
 }
 
 def warn(def msg) {
