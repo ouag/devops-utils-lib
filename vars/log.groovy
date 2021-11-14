@@ -1,4 +1,5 @@
 Log2 log2 - new Log2()
+import com.ouag.utils.logging.Log2
 
 def call(def msg) {
     println(msg)
