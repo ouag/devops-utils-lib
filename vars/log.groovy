@@ -15,6 +15,7 @@ def warn(def msg) {
     println(getTimestamp() + " - WARN " + msg)
 }
 
+
 def error(def msg) {
     println(getTimestamp() + " - ERROR " + msg)
 }
