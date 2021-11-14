@@ -5,17 +5,17 @@ def call(def msg){
 
 def info(def msg) {
 
-        echo "${getGreen}${msg}";
+        echo "${Green}${msg}";
 
 }
 
 def warn(def msg) {
-        echo "${getCyan}${msg}";
+        echo "${Cyan}${msg}";
 }
 
 def error(def msg) {
 
-        echo "${getRed}${msg}";
+        echo "${Red}${msg}";
 
 }
 
