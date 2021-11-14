@@ -1,23 +1,23 @@
-def call(){
-
+def call(def msg){
+    echo "${getGreen}${msg}";
 }
 
 
 def info(def msg) {
     ansiColor('xterm') {
-        echo "${getGreen}${msg}"
+        echo "${getGreen}${msg}";
     }
 }
 
 def warn(def msg) {
     ansiColor('xterm') {
-        echo "${getCyan}${msg}"
+        echo "${getCyan}${msg}";
     }
 }
 
 def error(def msg) {
     ansiColor('xterm') {
-        echo "${getRed}${msg}"
+        echo "${getRed}${msg}";
     }
 }
 
