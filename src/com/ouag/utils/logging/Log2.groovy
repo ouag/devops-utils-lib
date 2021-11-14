@@ -8,15 +8,15 @@ class Log2 {
     }
 
     def info(def msg) {
-        system.out.println(getTimestamp() + " - INFO " + msg)
+        System.out.println(getTimestamp() + " - INFO " + msg)
     }
 
     def warn(def msg) {
-        system.out.println(getTimestamp() + " - WARN " + msg)
+        System.out.println(getTimestamp() + " - WARN " + msg)
     }
 
     def error(def msg) {
-        system.out.println(getTimestamp() + " - ERROR " + msg)
+        System.out.println(getTimestamp() + " - ERROR " + msg)
     }
 
 }
