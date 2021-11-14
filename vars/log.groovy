@@ -1,7 +1,7 @@
 import com.ouag.utils.logging.Log2
 
 
-Log2 log2 - new Log2()
+
 
 def call(def msg) {
     println(msg)
@@ -13,6 +13,7 @@ def getTimestamp() {
 }
 
 def info(def msg) {
+    Log2 log2 - new Log2()
     log2.info(msg)
 }
 
