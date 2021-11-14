@@ -1,3 +1,5 @@
+Log2 log2 - new Log2()
+
 def call(def msg) {
     println(msg)
 }
@@ -8,7 +10,7 @@ def getTimestamp() {
 }
 
 def info(def msg) {
-    println(getTimestamp() + " - INFO " + msg)
+    log2.info(msg)
 }
 
 def warn(def msg) {
