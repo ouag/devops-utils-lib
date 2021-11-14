@@ -2,17 +2,21 @@ def call(def msg) {
     println(msg)
 }
 
+def getTimestamp() {
+    Date date = new Date();
+    return  date.toString();
+}
 
 def info(def msg) {
-    println("INFO " + msg)
+    println(getTimestamp() " - INFO " + msg)
 }
 
 def warn(def msg) {
-    println("WARN " + msg)
+    println(getTimestamp() " - WARN " + msg)
 }
 
 def error(def msg) {
-    println("ERROR " + msg)
+    println(getTimestamp() " - ERROR " + msg)
 }
 
 
