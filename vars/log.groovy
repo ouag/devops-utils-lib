@@ -1,27 +1,18 @@
 def call(def msg) {
-    echo "${getGreen}${msg}";
+    println(msg)
 }
 
-def getRed() { "\u001B[31m" }
-
-def getGreen() { "\u001B[32m" }
-
-def getCyan() { "\u001B[36m" }
 
 def info(def msg) {
-
-    echo "${getGreen}${msg}";
-
+    println("INFO " + msg)
 }
 
 def warn(def msg) {
-    echo "${getCyan}${msg}";
+    println("WARN " + msg)
 }
 
 def error(def msg) {
-
-    echo "${getRed}${msg}";
-
+    println("ERROR " + msg)
 }
 
 
