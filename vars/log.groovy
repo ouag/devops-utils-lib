@@ -8,15 +8,15 @@ def getTimestamp() {
 }
 
 def info(def msg) {
-    println(getTimestamp() " - INFO " + msg)
+    println(getTimestamp() + " - INFO " + msg)
 }
 
 def warn(def msg) {
-    println(getTimestamp() " - WARN " + msg)
+    println(getTimestamp() + " - WARN " + msg)
 }
 
 def error(def msg) {
-    println(getTimestamp() " - ERROR " + msg)
+    println(getTimestamp() + " - ERROR " + msg)
 }
 
 
