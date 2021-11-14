@@ -8,7 +8,7 @@ class Log2 {
     }
 
     def info(def msg) {
-        system.out.println(getTimestamp() + " - INFO " + msg))
+        system.out.println(getTimestamp() + " - INFO " + msg)
     }
 
     def warn(def msg) {
